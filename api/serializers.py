@@ -10,4 +10,16 @@ class AuthorSerializer(serializers.ModelSerializer):
 class MemberSerialiser(serializers.ModelSerializer):
     class Meta:
         model = Member
-        fiels = ('id', 'first_nale', 'last_name', 'adress', 'phone_number', 'email', 'endofsubscription')
+        fields = ('id', 'first_name', 'last_name', 'adress', 'phone_number', 'email', 'endofsubscription', 'image')
+
+class BookSerialiser(serializers.ModelSerializer):
+    class Meta:
+        model = Book
+        fields = ('id', 'author', 'title', 'edition', 'release_date',
+                  'number_of_page', 'langage', 'isnb', 'image', 'category')
+
+class RentSerialiser(serializers.ModelSerializer):
+    class Meta:
+        model = Rent
+        fields = ('id', 'book', 'member', 'renting_date', 'returning_date', 'returned')
+

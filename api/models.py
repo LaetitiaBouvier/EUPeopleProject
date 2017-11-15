@@ -10,6 +10,9 @@ class Author(models.Model):
     def __unicode__(self):
         return "{0}".format(self.code, )
 
+    def __str__(self):
+        return "%s %s" % (self.first_name, self.last_name)
+
 class Member(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
@@ -20,6 +23,32 @@ class Member(models.Model):
 
     email = models.EmailField(max_length=100)
     endofsubscription = models.DateField(default=datetime.date.today)
+    image = models.ImageField(default='../user.png')
 
     def __unicode__(self):
         return '{0}'.format(self.code, )
+
+    def __str__(self):
+        return "%s %s" % (self.first_name, self.last_name)
+
+
+class Book(models.Model):
+    author = models.ForeignKey(Author, related_name='book')
+    title = models.CharField(max_length=255)
+    edition = models.CharField(max_length=255)
+    release_date = models.DateField(default=datetime.date.today)
+    number_of_page = models.IntegerField(default=0)
+    langage = models.CharField(max_length=255)
+    isnb = models.CharField(max_length=255)
+    image = models.ImageField(default='../users.png')
+    category = models.CharField(max_length=255)
+
+    def __str__(self):
+        return "%s" % self.title
+
+class Rent(models.Model):
+    book = models.ForeignKey(Book, related_name='rent')
+    member = models.ForeignKey(Member, related_name='rent')
+    renting_date = models.DateField(default=datetime.date.today)
+    returning_date = models.DateField(default=datetime.date.today)
+    returned = models.BooleanField(default=False)

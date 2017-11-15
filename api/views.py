@@ -7,7 +7,6 @@ from rest_framework import generics
 class AuthorList(generics.ListCreateAPIView):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
-    permission_classes = (IsAdminOrReadOnly,)
 
     def get_queryset(self):
         queryset = Author.objects.all()
@@ -24,9 +23,27 @@ class AuthorList(generics.ListCreateAPIView):
 class AuthorDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
-    permission_classes = (IsAdminOrReadOnly,)
 
 class MemberList(generics.ListCreateAPIView):
     queryset = Member.objects.all()
     serializer_class = MemberSerialiser
-    permission_classes = (IsAdminOrReadOnly,)
+
+class MemberDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Member.objects.all()
+    serializer_class = MemberSerialiser
+
+class BookList(generics.ListCreateAPIView):
+    queryset = Book.objects.all()
+    serializer_class = BookSerialiser
+
+class BookDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Book.objects.all()
+    serializer_class = BookSerialiser
+
+class RentList(generics.ListCreateAPIView):
+    queryset = Rent.objects.all()
+    serializer_class = RentSerialiser
+
+class RentDetail(generics.RetrieveUpdateDestroyAPIView):
+    queryset = Rent.objects.all()
+    serializer_class = RentSerialiser
