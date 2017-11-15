@@ -1,0 +1,327 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--IE Compatibility modes-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Mobile first-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Staff - Member Search Form</title>
+
+    <meta name="msapplication-TileColor" content="#5bc0de" />
+    <meta name="msapplication-TileImage" content="assets/img/metis-tile.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.css">
+
+    <!-- Metis core stylesheet -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- metisMenu stylesheet -->
+    <link rel="stylesheet" href="assets/lib/metismenu/metisMenu.css">
+
+    <!-- onoffcanvas stylesheet -->
+    <link rel="stylesheet" href="assets/lib/onoffcanvas/onoffcanvas.css">
+
+    <!-- animate.css stylesheet -->
+    <link rel="stylesheet" href="assets/lib/animate.css/animate.css">
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    <!--For Development Only. Not required -->
+    <script>
+        less = {
+            env: "development",
+            relativeUrls: false,
+            rootpath: "/assets/"
+        };
+    </script>
+    <link rel="stylesheet" href="assets/css/style-switcher.css">
+
+  </head>
+
+        <body class="menu-affix">
+            <div class="bg-dark dk" id="wrap">
+                <div id="top">
+                    <!-- .navbar -->
+                    <nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container-fluid">
+
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <header class="navbar-header">
+
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="Staff_home.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+
+                            </header>
+
+
+
+                            <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                                <!-- .nav -->
+                                <ul class="nav navbar-nav">
+                                    <li><a href="Staff_ISSUE_RETURN.html">Issue &amp; Return</a></li>
+                                    <li><a href="Staff_SRCH_book.html">Advanced Search &amp; Management</a></li>
+                                    <li><a href="Staff_EDIT_account.html">Manage My Account</a></li>
+                                </ul>
+                                <!-- /.nav -->
+                            </div>
+                        </div>
+                        <!-- /.container-fluid -->
+                    </nav>
+                    <!-- /.navbar -->
+                        <header class="head">
+                                <div class="search-bar">
+                                    <form class="main-search" action="">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Quick Search ...">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary btn-sm text-muted" type="button">
+                                                    <i class="fa fa-search"></i>
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                    <!-- /.main-search -->                                </div>
+                                <!-- /.search-bar -->
+                            <div class="main-bar">
+                                <h3>
+              <i class="fa fa-user"></i>&nbsp;
+              <span class="fa fa-search"></span>
+            Search a member
+          </h3>
+                            </div>
+                            <!-- /.main-bar -->
+                        </header>
+                        <!-- /.head -->
+                </div>
+                <!-- /#top -->
+
+                <!-- PANNEAU DE GAUCHE -->
+                    <div id="left">
+                        <div class="media user-media bg-dark dker">
+                            <div class="user-media-toggleHover">
+                                <span class="fa fa-user"></span>
+                            </div>
+                            <div class="user-wrapper bg-dark">
+                                <a class="user-link" href="">
+                                    <img class="media-object img-thumbnail user-img" alt="User Picture" src="assets/img/img.png">
+
+                                </a>
+
+                                <div class="media-body">
+                                    <h5 class="media-heading">Laetitia</h5>
+                                    <h5 class="media-heading">BOUVIER</h5>
+                                    <ul class="list-unstyled user-info">
+                                        <li>Staff Member</li>
+                                        <li>ID : #92691</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #menu -->
+                        <ul id="menu" class="bg-blue dker">
+                                  <li class="nav-header">Advanced Search &amp; Management Menu</li>
+                                  <li class="nav-divider"></li>
+                                  <!--BOOK -->
+                                  <li class="">
+                                    <a href="javascript:;">
+                                      <i class="fa fa-book "></i>
+                                      <span class="link-title">Book</span>
+                                      <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="collapse">
+                                      <li class="">
+                                        <a href="Staff_SRCH_book.html">
+                                          <i class="fa fa-search"></i><span class="link-title">&nbsp;Search a book</span>
+                                        </a>
+                                      </li>
+                                      <li class="">
+                                        <a href="Staff_MAN_book.html">
+                                          <i class="fa fa-pencil "></i>
+                                          <span class="link-title">Add a book</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+
+                                  <!-- BORROW -->
+
+                                  <li class="">
+                                    <a href="Staff_SRCH_borrow.html" >
+                                      <i class="fa fa-ticket "></i>
+                                      <span class="link-title">Borrow</span>
+                                    </a>
+                                  </li>
+                                  <!--MEMBER -->
+                                  <li class="active">
+                                    <a href="javascript:;">
+                                      <i class="fa fa-user "></i>
+                                      <span class="link-title">Member</span>
+                                      <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="collapse">
+                                      <li class="">
+                                        <a href="Staff_SRCH_member.html">
+                                          <i class="fa fa-search"></i><span class="link-title">&nbsp;Search a member</span>
+                                        </a>
+                                      </li>
+                                      <li class="">
+                                        <a href="Staff_MAN_member.html">
+                                          <i class="fa fa-pencil "></i>
+                                          <span class="link-title">Add a member</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+
+                                  <!--STAFF -->
+                                  <li class="">
+                                    <a href="javascript:;">
+                                      <i class="fa fa-vcard "></i>
+                                      <span class="link-title">Staff</span>
+                                      <span class="fa arrow"></span>
+                                    </a>
+                                    <ul class="collapse">
+                                      <li class="">
+                                        <a href="Staff_SRCH_staff.html">
+                                          <i class="fa fa-search"></i><span class="link-title">&nbsp;Search a staff member</span>
+                                        </a>
+                                      </li>
+                                      <li class="">
+                                        <a href="Admin_MAN_staff.html">
+                                          <i class="fa fa-pencil "></i>
+                                          <span class="link-title">Add a staff member</span>
+                                        </a>
+                                      </li>
+                                    </ul>
+                                  </li>
+
+                                  <li class="nav-divider"></li>
+                                  <li>
+                                    <a href="login.html">
+                                      <i class="fa fa-sign-in"></i>
+                                      <span class="link-title">
+                            Log Out
+                            </span>
+                                    </a>
+                                  </li>
+<li class="nav-divider"></li>
+                                    </ul>
+
+                        <!-- /#menu -->
+                    </div>
+                    <!-- /#left -->
+                <div id="content">
+                    <div class="outer">
+                        <div class="inner bg-light lter">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  <div class="box">
+                                      <header class="dark">
+                                          <div class="icons"><i class="fa fa-search"></i></div>
+                                          <h5>Member Search Form</h5>
+                                          <!-- .toolbar -->
+
+
+                                      </header>
+                                      <div id="collapse2" class="body">
+                                          <form class="form-horizontal" id="popup-validation">
+
+                                              <div class="form-group">
+                                                  <label class="control-label col-lg-4">Member ID</label>
+                                                  <div class="col-lg-4">
+                                                      <input type="text" class="validate form-control" name="memberID" id="memberID">
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label class="control-label col-lg-4">Member First Name</label>
+                                                  <div class="col-lg-2">
+                                                      <input type="text" class="validate form-control" name="memberFN" id="memberFN">
+                                                  </div>
+
+                                                  <label class="control-label col-lg-2">Member Last Name</label>
+                                                  <div class="col-lg-2">
+                                                      <input type="text" class="validate form-control" name="memberLN" id="memberLN">
+                                                  </div>
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label class="control-label col-lg-4">Email</label>
+                                                  <div class="col-lg-4">
+                                                      <input type="email" class="validate form-control" name="email" id="email">
+                                                  </div>
+                                              </div>
+
+
+                                              <div class="form-actions no-margin-bottom">
+                                                  <input type="submit" value="Search" class="btn btn-primary">
+                                              </div>
+                                          </form>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- /.col-lg-12 -->
+                          </div>
+                          <!-- /.row -->
+                        </div>
+                        <!-- /.inner -->
+                    </div>
+                    <!-- /.outer -->
+                </div>
+                <!-- /#content -->
+
+
+            </div>
+            <!-- /#wrap -->
+            <footer class="Footer bg-dark dker">
+                <p>2017 &copy; EU People - Library Management System </p>
+            </footer>
+
+            <!-- /#footer -->
+
+            <!--jQuery -->
+            <script src="assets/lib/jquery/jquery.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
+
+            <!--Bootstrap -->
+            <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+            <!-- MetisMenu -->
+            <script src="assets/lib/metismenu/metisMenu.js"></script>
+            <!-- onoffcanvas -->
+            <script src="assets/lib/onoffcanvas/onoffcanvas.js"></script>
+            <!-- Screenfull -->
+            <script src="assets/lib/screenfull/screenfull.js"></script>
+
+
+            <!-- Metis core scripts -->
+            <script src="assets/js/core.js"></script>
+            <!-- Metis demo scripts -->
+            <script src="assets/js/app.js"></script>
+
+
+        </body>
+
+</html>
