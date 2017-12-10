@@ -9,8 +9,8 @@ class AuthorSerializer(serializers.ModelSerializer):
 
 class MemberSerialiser(serializers.ModelSerializer):
     class Meta:
-        model = Member
-        fields = ('id', 'first_name', 'last_name', 'adress', 'phone_number', 'email', 'endofsubscription', 'image')
+        model = User
+        fields = ('id', 'username', 'first_name', 'last_name', 'email', 'password', 'is_staff', 'is_active', 'date_joined')
 
 class BookSerialiser(serializers.ModelSerializer):
     class Meta:

@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 from django.core.validators import RegexValidator
 import datetime
 # Create your models here.
@@ -48,7 +49,7 @@ class Book(models.Model):
 
 class Rent(models.Model):
     book = models.ForeignKey(Book, related_name='rent')
-    member = models.ForeignKey(Member, related_name='rent')
+    member = models.ForeignKey(User, related_name='rent')
     renting_date = models.DateField(default=datetime.date.today)
     returning_date = models.DateField(default=datetime.date.today)
     returned = models.BooleanField(default=False)

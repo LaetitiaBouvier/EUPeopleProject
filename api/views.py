@@ -1,12 +1,41 @@
+from rest_framework.views import APIView
+
 from .serializers import *
 from .permissions import IsAdminOrReadOnly
+from rest_framework.permissions import IsAuthenticated
 from rest_framework import generics
+from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.views import ObtainAuthToken
+from rest_framework.authtoken.models import Token
+from rest_framework.authtoken.models import AUTH_USER_MODEL
+from rest_framework.response import Response
+from django.contrib.auth.models import User, AnonymousUser
+
+
+class CustomObtainAuthToken(ObtainAuthToken):
+    def post(self, request, *args, **kwargs):
+        response = super(CustomObtainAuthToken, self).post(request, *args, **kwargs)
+        token = Token.objects.get(key=response.data['token'])
+        return Response({ 'token': token.key, 'id': token.user_id })
 
 # Create your views here.
+
+class CurrentUserView(APIView):
+    queryset = User.objects.all()
+    serializers_class = MemberSerialiser
+
+    def get(self, request):
+        if type(request.user) != AnonymousUser :
+            serializer = MemberSerialiser(request.user)
+        else :
+            return Response("Unauthentificated.", 503)
+        return Response(serializer.data)
 
 class AuthorList(generics.ListCreateAPIView):
     queryset = Author.objects.all()
     serializer_class = AuthorSerializer
+    # permission_classes = (IsAuthenticated,)
+
 
     def get_queryset(self):
         queryset = Author.objects.all()
@@ -47,3 +76,4 @@ class RentList(generics.ListCreateAPIView):
 class RentDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Rent.objects.all()
     serializer_class = RentSerialiser
+

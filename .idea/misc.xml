@@ -5,5 +5,8 @@
       <configuration CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="JSX" />
+  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.1 (C:\Users\carej\Anaconda3\python.exe)" project-jdk-type="Python SDK" />
 </project>
