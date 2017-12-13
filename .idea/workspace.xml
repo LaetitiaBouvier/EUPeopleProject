@@ -2,45 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99c9a0c3-2f1d-4c32-8238-30ecefd222a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/api_connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/api_requests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/js/member_info.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/app.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/core.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/countdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/img.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Views/assets/js/style-switcher.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Member_home.html" afterPath="$PROJECT_DIR$/client/html/Member_home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_home.html" afterPath="$PROJECT_DIR$/client/html/Staff_home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/login.html" afterPath="$PROJECT_DIR$/client/html/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Admin_MAN_staff.html" afterPath="$PROJECT_DIR$/client/html/Admin_MAN_staff.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Member_EDIT_account.html" afterPath="$PROJECT_DIR$/client/html/Member_EDIT_account.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Member_SEE_borrows.html" afterPath="$PROJECT_DIR$/client/html/Member_SEE_borrows.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Member_SEE_recommendations.html" afterPath="$PROJECT_DIR$/client/html/Member_SEE_recommendations.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Member_SRCH_book.html" afterPath="$PROJECT_DIR$/client/html/Member_SRCH_book.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Show_Results.html" afterPath="$PROJECT_DIR$/client/html/Show_Results.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_EDIT_account.html" afterPath="$PROJECT_DIR$/client/html/Staff_EDIT_account.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_ISSUE_RETURN.html" afterPath="$PROJECT_DIR$/client/html/Staff_ISSUE_RETURN.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN-SRCH_home.html" afterPath="$PROJECT_DIR$/client/html/Staff_MAN-SRCH_home.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN_book.html" afterPath="$PROJECT_DIR$/client/html/Staff_MAN_book.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN_member.html" afterPath="$PROJECT_DIR$/client/html/Staff_MAN_member.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_book.html" afterPath="$PROJECT_DIR$/client/html/Staff_SRCH_book.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_borrow.html" afterPath="$PROJECT_DIR$/client/html/Staff_SRCH_borrow.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_member.html" afterPath="$PROJECT_DIR$/client/html/Staff_SRCH_member.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_staff.html" afterPath="$PROJECT_DIR$/client/html/Staff_SRCH_staff.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/models.py" afterPath="$PROJECT_DIR$/api/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/serializers.py" afterPath="$PROJECT_DIR$/api/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/urls.py" afterPath="$PROJECT_DIR$/api/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/views.py" afterPath="$PROJECT_DIR$/api/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/settings.py" afterPath="$PROJECT_DIR$/bookstore/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookstore/urls.py" afterPath="$PROJECT_DIR$/bookstore/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Admin_MAN_staff.html" afterPath="$PROJECT_DIR$/src/Views/Admin_MAN_staff.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Member_EDIT_account.html" afterPath="$PROJECT_DIR$/src/Views/Member_EDIT_account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Member_SEE_borrows.html" afterPath="$PROJECT_DIR$/src/Views/Member_SEE_borrows.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Member_SEE_recommendations.html" afterPath="$PROJECT_DIR$/src/Views/Member_SEE_recommendations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Member_SRCH_book.html" afterPath="$PROJECT_DIR$/src/Views/Member_SRCH_book.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Show_Results.html" afterPath="$PROJECT_DIR$/src/Views/Show_Results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_EDIT_account.html" afterPath="$PROJECT_DIR$/src/Views/Staff_EDIT_account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_ISSUE_RETURN.html" afterPath="$PROJECT_DIR$/src/Views/Staff_ISSUE_RETURN.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN-SRCH_home.html" afterPath="$PROJECT_DIR$/src/Views/Staff_MAN-SRCH_home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN_book.html" afterPath="$PROJECT_DIR$/src/Views/Staff_MAN_book.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_MAN_member.html" afterPath="$PROJECT_DIR$/src/Views/Staff_MAN_member.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_book.html" afterPath="$PROJECT_DIR$/src/Views/Staff_SRCH_book.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_borrow.html" afterPath="$PROJECT_DIR$/src/Views/Staff_SRCH_borrow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_member.html" afterPath="$PROJECT_DIR$/src/Views/Staff_SRCH_member.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/Staff_SRCH_staff.html" afterPath="$PROJECT_DIR$/src/Views/Staff_SRCH_staff.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Views/table.html" afterPath="$PROJECT_DIR$/src/Views/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/html/Member_home.html" afterPath="$PROJECT_DIR$/client/html/Member_home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/html/Staff_home.html" afterPath="$PROJECT_DIR$/client/html/Staff_home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,110 +34,108 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.715857">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="api_connect.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/js/api_connect.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Member_home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/html/Member_home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="137" column="38" lean-forward="true" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="member_info.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/js/member_info.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cookies.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/js/cookies.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="399">
-                  <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#!!doc;n#setCookie#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/html/login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="142">
-                  <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="api_requests.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/js/api_requests.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="231">
-                  <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-                  <folding>
-                    <element signature="n#!!doc;n#myGet#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Member_home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/html/Member_home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="135" column="59" lean-forward="false" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="table.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Views/table.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1008">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Show_Results.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Views/Show_Results.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-4977">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Staff_home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_ISSUE_RETURN.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_ISSUE_RETURN.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_MAN-SRCH_home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN-SRCH_home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_MAN_book.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_MAN_member.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN_member.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_SRCH_book.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_SRCH_borrow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_borrow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_SRCH_member.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_member.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Staff_SRCH_staff.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_staff.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member_SRCH_book.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/html/Member_SRCH_book.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="183" column="93" lean-forward="false" selection-start-line="183" selection-start-column="88" selection-end-line="183" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,7 +162,12 @@
       <find>login-form</find>
       <find>api_connect</find>
       <find>loginAPI</find>
+      <find>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;&gt;&lt;/script&gt;    &lt;script src=&quot;../js/cookies.js&quot;&gt;&lt;/script&gt;</find>
+      <find>Title</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\carej\Desktop\DatabaseSystem</dir>
     </dirStrings>
@@ -195,14 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/erp/models.py" />
-        <option value="$PROJECT_DIR$/eboutique1/eboutique/views.py" />
-        <option value="$PROJECT_DIR$/eboutique/serializers.py" />
-        <option value="$PROJECT_DIR$/eboutique/views.py" />
-        <option value="$PROJECT_DIR$/eboutique/settings.py" />
-        <option value="$PROJECT_DIR$/eboutique/urls.py" />
-        <option value="$PROJECT_DIR$/eboutique/eboutique/settings.py" />
-        <option value="$PROJECT_DIR$/eboutique/eboutique/views.py" />
         <option value="$PROJECT_DIR$/eboutique/eboutique/serializers.py" />
         <option value="$PROJECT_DIR$/eboutique/eboutique/urls.py" />
         <option value="$PROJECT_DIR$/bookstore/api/models.py" />
@@ -217,12 +192,43 @@
         <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$PROJECT_DIR$/client/js/api_requests.js" />
         <option value="$PROJECT_DIR$/api/serializers.py" />
-        <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/client/html/request_api.html" />
         <option value="$PROJECT_DIR$/client/html/login.html" />
         <option value="$PROJECT_DIR$/client/js/api_connect.js" />
-        <option value="$PROJECT_DIR$/client/js/member_info.js" />
         <option value="$PROJECT_DIR$/client/html/Member_home.html" />
+        <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/src/Views/Admin_MAN_staff.html" />
+        <option value="$PROJECT_DIR$/src/Views/Member_EDIT_account.html" />
+        <option value="$PROJECT_DIR$/src/Views/Member_SEE_borrows.html" />
+        <option value="$PROJECT_DIR$/src/Views/Member_SEE_recommendations.html" />
+        <option value="$PROJECT_DIR$/src/Views/Member_SRCH_book.html" />
+        <option value="$PROJECT_DIR$/src/Views/Show_Results.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_EDIT_account.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_ISSUE_RETURN.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_MAN-SRCH_home.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_MAN_book.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_MAN_member.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_SRCH_book.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_SRCH_borrow.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_SRCH_member.html" />
+        <option value="$PROJECT_DIR$/src/Views/Staff_SRCH_staff.html" />
+        <option value="$PROJECT_DIR$/client/js/member_info.js" />
+        <option value="$PROJECT_DIR$/client/html/Admin_MAN_staff.html" />
+        <option value="$PROJECT_DIR$/client/html/Member_EDIT_account.html" />
+        <option value="$PROJECT_DIR$/client/html/Member_SEE_borrows.html" />
+        <option value="$PROJECT_DIR$/client/html/Member_SEE_recommendations.html" />
+        <option value="$PROJECT_DIR$/client/html/Show_Results.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_EDIT_account.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_home.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_ISSUE_RETURN.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_MAN-SRCH_home.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_MAN_book.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_MAN_member.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_SRCH_book.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_SRCH_borrow.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_SRCH_member.html" />
+        <option value="$PROJECT_DIR$/client/html/Staff_SRCH_staff.html" />
+        <option value="$PROJECT_DIR$/client/html/Member_SRCH_book.html" />
       </list>
     </option>
   </component>
@@ -621,17 +627,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4140709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19705549" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28652322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26047567" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1745435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26047567" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -640,7 +646,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -654,7 +659,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28652322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26047567" sideWeight="0.49785176" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4140709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1745435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -676,20 +681,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/erp/admin.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/erp/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/manage.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/erp/views.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/erp/tests.py" />
-    <entry file="file://$PROJECT_DIR$/trash/eboutique/eboutique/serializers.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/django/conf/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trash/eboutique/eboutique/settings.py" />
     <entry file="file://$PROJECT_DIR$/trash/eboutique/eboutique/urls.py" />
     <entry file="file://$PROJECT_DIR$/trash/eboutique/eboutique/wsgi.py" />
@@ -759,20 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Staff_ISSUE_RETURN.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Staff_MAN_book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -801,21 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Admin_MAN_staff.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/html/request_api.html" />
-    <entry file="file://$PROJECT_DIR$/src/Views/Member_SEE_recommendations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -830,27 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -858,52 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Member_SEE_borrows.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/js/api_requests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc;n#myGet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/html/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/api_connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Staff_SRCH_staff.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Member_EDIT_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2079">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -917,34 +817,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/js/api_requests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Views/table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/js/member_info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="42">
+          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Admin_MAN_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Member_EDIT_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/html/Member_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="135" column="59" lean-forward="false" selection-start-line="135" selection-start-column="59" selection-end-line="135" selection-end-column="59" />
+        <state relative-caret-position="231">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/table.html">
+    <entry file="file://$PROJECT_DIR$/client/html/Member_SEE_borrows.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Views/Show_Results.html">
+    <entry file="file://$PROJECT_DIR$/client/html/Member_SEE_recommendations.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4977">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="903">
+          <caret line="43" column="4" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Show_Results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_EDIT_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_ISSUE_RETURN.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN-SRCH_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="44" column="44" lean-forward="false" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_MAN_member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_borrow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Staff_SRCH_staff.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/html/Member_SRCH_book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="183" column="93" lean-forward="false" selection-start-line="183" selection-start-column="88" selection-end-line="183" selection-end-column="93" />
           <folding />
         </state>
       </provider>

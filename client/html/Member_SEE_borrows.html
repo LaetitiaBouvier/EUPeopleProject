@@ -8,28 +8,28 @@
     <!--Mobile first-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Member - Recommendations</title>
+    <title>Member - Borrows</title>
 
     <meta name="msapplication-TileColor" content="#5bc0de" />
     <meta name="msapplication-TileImage" content="assets/img/metis-tile.png" />
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../src/Views/assets/lib/bootstrap/css/bootstrap.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="assets/lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../src/Views/assets/lib/font-awesome/css/font-awesome.css">
 
     <!-- Metis core stylesheet -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../../src/Views/assets/css/main.css">
 
     <!-- metisMenu stylesheet -->
-    <link rel="stylesheet" href="assets/lib/metismenu/metisMenu.css">
+    <link rel="stylesheet" href="../../src/Views/assets/lib/metismenu/metisMenu.css">
 
     <!-- onoffcanvas stylesheet -->
-    <link rel="stylesheet" href="assets/lib/onoffcanvas/onoffcanvas.css">
+    <link rel="stylesheet" href="../../src/Views/assets/lib/onoffcanvas/onoffcanvas.css">
 
     <!-- animate.css stylesheet -->
-    <link rel="stylesheet" href="assets/lib/animate.css/animate.css">
+    <link rel="stylesheet" href="../../src/Views/assets/lib/animate.css/animate.css">
 
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
@@ -40,6 +40,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/cookies.js"></script>
 
     <!--For Development Only. Not required -->
     <script>
@@ -49,7 +51,7 @@
             rootpath: "/assets/"
         };
     </script>
-    <link rel="stylesheet" href="assets/css/style-switcher.css">
+    <link rel="stylesheet" href="../../src/Views/assets/css/style-switcher.css">
 
   </head>
 
@@ -70,7 +72,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a href="../../client/html/Member_home.html" class="navbar-brand"><img src="assets/img/logo.png" alt=""></a>
+                                <a href="Member_home.html" class="navbar-brand"><img src="../../src/Views/assets/img/logo.png" alt=""></a>
 
                             </header>
 
@@ -108,8 +110,8 @@
                                 <!-- /.search-bar -->
                             <div class="main-bar">
                                 <h3>
-              <i class="fa fa-heart"></i>&nbsp;
-            Recommendations
+              <i class="fa fa-list-alt"></i>&nbsp;
+            My borrows
           </h3>
                             </div>
                             <!-- /.main-bar -->
@@ -125,24 +127,25 @@
                             </div>
                             <div class="user-wrapper bg-dark">
                                 <a class="user-link" href="">
-                                    <img class="media-object img-thumbnail user-img" alt="User Picture" src="assets/img/img2.png">
+                                    <img class="media-object img-thumbnail user-img" alt="User Picture" src="../../src/Views/assets/img/img2.png">
 
                                 </a>
 
                                 <div class="media-body">
-                                  <h5 class="media-heading">Pierre</h5>
-                                  <h5 class="media-heading">DUPONT</h5>
-                                  <ul class="list-unstyled user-info">
-                                      <li>Member</li>
-                                      <li>ID : #76393</li>
-                                    </ul>
+                                  <h5 id="member-firstname" class="media-heading">Pierre</h5>
+                                  <h5 id="member-lastname" class="media-heading">DUPONT</h5>
+                                    <div id="member-surname">Member</div>
+                                    <div id="member-id">ID : #76393</div>
                                 </div>
                             </div>
                         </div>
+                        <script src="../js/member_info.js"></script>
+                        <script> updateMemberInfo(); </script>
+
                         <ul id="menu" class="bg-blue dker">
                                             <li class="nav-divider"></li>
                                             <li>
-                                              <a href="../../client/html/login.html">
+                                              <a href="login.html">
                                                 <i class="fa fa-sign-in"></i>
                                                 <span class="link-title">
                                         Log Out
@@ -155,25 +158,25 @@
                       </div>
 
 
-                      <div id="content">
-                          <div class="outer">
-                              <div class="inner bg-light lter">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="box">
+                <div id="content">
+                    <div class="outer">
+                        <div class="inner bg-light lter">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  <div class="box">
 
-                                            <!-- INSERER LE CONTENU ICI -->
+                                      <!-- INSERER LE CONTENU ICI -->
 
-                                        </div>
-                                    </div>
-                                    <!-- /.col-lg-12 -->
-                                </div>
-                                <!-- /.row -->
+                                  </div>
                               </div>
-                              <!-- /.inner -->
+                              <!-- /.col-lg-12 -->
                           </div>
-                          <!-- /.outer -->
-                      </div>
+                          <!-- /.row -->
+                        </div>
+                        <!-- /.inner -->
+                    </div>
+                    <!-- /.outer -->
+                </div>
                 <!-- /#content -->
 
 
@@ -186,7 +189,7 @@
             <!-- /#footer -->
 
             <!--jQuery -->
-            <script src="assets/lib/jquery/jquery.js"></script>
+            <script src="../../src/Views/assets/lib/jquery/jquery.js"></script>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
@@ -198,18 +201,18 @@
             <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js"></script>
 
             <!--Bootstrap -->
-            <script src="assets/lib/bootstrap/js/bootstrap.js"></script>
+            <script src="../../src/Views/assets/lib/bootstrap/js/bootstrap.js"></script>
             <!-- MetisMenu -->
-            <script src="assets/lib/metismenu/metisMenu.js"></script>
+            <script src="../../src/Views/assets/lib/metismenu/metisMenu.js"></script>
             <!-- onoffcanvas -->
-            <script src="assets/lib/onoffcanvas/onoffcanvas.js"></script>
+            <script src="../../src/Views/assets/lib/onoffcanvas/onoffcanvas.js"></script>
             <!-- Screenfull -->
-            <script src="assets/lib/screenfull/screenfull.js"></script>
+            <script src="../../src/Views/assets/lib/screenfull/screenfull.js"></script>
 
-            <script src="assets/lib/plupload/js/plupload.full.min.js"></script>
-            <script src="assets/lib/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
-            <script src="assets/lib/jquery.gritter/js/jquery.gritter.min.js"></script>
-            <script src="assets/lib/formwizard/js/jquery.form.wizard.js"></script>
+            <script src="../../src/Views/assets/lib/plupload/js/plupload.full.min.js"></script>
+            <script src="../../src/Views/assets/lib/plupload/js/jquery.plupload.queue/jquery.plupload.queue.min.js"></script>
+            <script src="../../src/Views/assets/lib/jquery.gritter/js/jquery.gritter.min.js"></script>
+            <script src="../../src/Views/assets/lib/formwizard/js/jquery.form.wizard.js"></script>
             <script src="assets/js/img.js"></script>
 
             <!-- Metis core scripts -->

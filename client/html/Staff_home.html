@@ -40,6 +40,8 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/cookies.js"></script>
 
     <!--For Development Only. Not required -->
     <script>
@@ -80,9 +82,9 @@
 
                                 <!-- .nav -->
                                 <ul class="nav navbar-nav">
-                                    <li><a href="../../src/Views/Staff_ISSUE_RETURN.html">Issue &amp; Return</a></li>
-                                    <li><a href="../../src/Views/Staff_SRCH_book.html">Advanced Search &amp; Management</a></li>
-                                    <li><a href="../../src/Views/Staff_EDIT_account.html">Manage My Account</a></li>
+                                    <li><a href="Staff_ISSUE_RETURN.html">Issue &amp; Return</a></li>
+                                    <li><a href="Staff_SRCH_book.html">Advanced Search &amp; Management</a></li>
+                                    <li><a href="Staff_EDIT_account.html">Manage My Account</a></li>
                                 </ul>
                                 <!-- /.nav -->
                             </div>
@@ -129,15 +131,15 @@
                                 </a>
 
                                 <div class="media-body">
-                                  <h5 class="media-heading">Laetitia</h5>
-                                  <h5 class="media-heading">BOUVIER</h5>
-                                  <ul class="list-unstyled user-info">
-                                      <li>Staff Member</li>
-                                      <li>ID : #92691</li>
-                                    </ul>
+                                  <h5 id="member-firstname" class="media-heading">Pierre</h5>
+                                  <h5 id="member-lastname" class="media-heading">DUPONT</h5>
+                                    <div id="member-surname">Member</div>
+                                    <div id="member-id">ID : #76393</div>
                                 </div>
                             </div>
                         </div>
+                        <script src="../js/member_info.js"></script>
+                        <script> updateMemberInfo(); </script>
                         <!-- #menu -->
                         <ul id="menu" class="bg-blue dker">
                                   <li class="nav-divider"></li>
